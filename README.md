@@ -6,7 +6,7 @@ A comprehensive collection of parallel programming implementations, examples, an
 
 This repository serves as both a practical resource for parallel programming implementations and an educational tool for understanding parallel computing concepts. Each implementation includes detailed documentation, performance analysis, and usage examples.
 
-## Project structure
+### Project structure
 ```
 ├── README.md
 ├── src/
@@ -14,8 +14,7 @@ This repository serves as both a practical resource for parallel programming imp
 │   │   ├── process_example.cpp  # Code using fork()
 │   │   ├── thread_example.cpp   # Code using std::thread
 │   │   ├── Makefile             # Compilation script
-│   │   ├── README.md            # Explanation of differences
-│   │   └── ... (any additional files)
+│   │   └── README.md            # Explanation of differences
 │   ├── openmp/
 │   │   ├──
 │   │   ├──
@@ -36,3 +35,7 @@ This repository serves as both a practical resource for parallel programming imp
     ├──
     └──
 ```
+
+## Related Projects
+For a practical example of these parallel programming concepts in action, check out our dedicated password recovery project:
+- [zip-cracker](https://github.com/archibald-carrion/zip-cracker): Educational project demonstrating parallel programming concepts through password recovery implementations

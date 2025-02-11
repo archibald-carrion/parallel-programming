@@ -1,7 +1,4 @@
-/* process_vs_threads/README.md */
 # Process vs Threads
-
-
 
 ## **Processes vs. Threads:**
 1. **Processes**  
@@ -29,8 +26,8 @@
 To compile and run the examples:
 ```sh
 make
-./process_example
-./thread_example
+./build/process_example
+./build/thread_example
 ```
 To clean up:
 ```sh
