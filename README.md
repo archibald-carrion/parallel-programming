@@ -10,6 +10,12 @@ This repository serves as both a practical resource for parallel programming imp
 ```
 ├── README.md
 ├── src/
+│   ├── process_vs_threads/
+│   │   ├── process_example.cpp  # Code using fork()
+│   │   ├── thread_example.cpp   # Code using std::thread
+│   │   ├── Makefile             # Compilation script
+│   │   ├── README.md            # Explanation of differences
+│   │   └── ... (any additional files)
 │   ├── openmp/
 │   │   ├──
 │   │   ├──
